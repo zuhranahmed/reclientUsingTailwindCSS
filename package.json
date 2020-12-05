@@ -1,0 +1,17 @@
+{
+  "name": "reclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -w src/style.css -o public/syle.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.14",
+    "tailwindcss": "^2.0.1"
+  }
+}
